@@ -3,7 +3,7 @@ x = int(input('Введите ваш вес: '))
 b = input('Введите ваш пол (М/Ж): ')
 
 if b == 'М':
-  weight = a * 0.712 - 58
+  weight = a * 0.712 - 60
   print(weight)
   print('Ваш вес должен быть скорректирован на ' + str(weight - x) + ' кг')
 elif b == 'Ж':
